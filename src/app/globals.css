@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    background: linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(0, 0, 0, 0.3)
+    );
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.light-purple {
+  color: "#9747FF";
+  background-color: "#9747FF";
+}
+
+.bg-shadowblack {
+  box-shadow: 2px 4px 10px 1px black;
+}
+
+.mt {
+  margin-top: -27.3px;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #ffffff, #9747ff, #4d008c);
+}
+.bg-shadow {
+  box-shadow: 0 0 10px #4d008c;
+}
